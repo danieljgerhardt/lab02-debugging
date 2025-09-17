@@ -1,5 +1,11 @@
 # lab02-debugging
 
+[Link to Shadertoy](https://www.shadertoy.com/view/wcsfDX)
+
+By Daniel Gerhradt, worked with Avi.
+
+5 bugs - vec should have been vec2, and not using the new uv2 further in that function. Next there was a division for determining world positions that used x twice rather than x and y. The last bugs were the march iteration count was too small, and the dir setup for reflections reflected eye rather than dir.
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
